@@ -1,0 +1,82 @@
+html body {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 40%;
+}
+
+.bar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 6px;
+    border: rgb(14, 141, 158);
+    margin-top: 10px;
+    font-size: 17px;    
+}
+
+#container{
+    text-align: center;
+}
+
+#button1, #button2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.navbar-brand {
+    position: relative;
+    background: url(images/logo1.png);
+    width: 100%;
+    left: 10px;
+    background-size: contain;
+}
+
+.font {
+    color: ghostwhite;
+    font-weight: bold;
+}
+
+.field {
+    display:flex;
+    gap: 16px;    
+}
+.fieldlabel {
+    display:flex;
+    flex: 0 0 20%;
+    white-space: nowrap;    
+}
+
+.fieldinput {
+    display:flex;
+    flex: 0 0 50%;
+    white-space: nowrap;    
+}
+
+.fieldinfo {
+    display:flex;
+    flex: 0 0 30%;
+    white-space: nowrap;
+}
+
+.fontInfo {
+    color: floralwhite;
+    font-size: 7.5px;
+}
+
+.fieldinfolast {
+    display:flex;
+    flex: 1;
+}
+
+
+
+
